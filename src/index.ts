@@ -43,3 +43,6 @@ export const useHaptics = () => {
 
   return triggerHapticsHook;
 };
+
+// Browser global
+(window as any).triggerHaptics = triggerHaptics;
