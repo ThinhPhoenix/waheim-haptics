@@ -16,7 +16,7 @@
     "pwa",
     "react-hook"
   ],
-  "author": "ape",
+  "author": "thinhphoenix",
   "license": "MIT",
   "devDependencies": {
     "@types/bun": "latest",
