@@ -1,0 +1,32 @@
+{
+  "name": "waheim-haptics",
+  "version": "1.0.0",
+  "description": "Haptic feedback for web applications using the Vibration API",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "haptics",
+    "vibration",
+    "web",
+    "pwa",
+    "react-hook"
+  ],
+  "author": "ape",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  }
+}
