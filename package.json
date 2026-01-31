@@ -1,13 +1,14 @@
 {
   "name": "waheim-haptics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Haptic feedback for web applications using the Vibration API",
-  "main": "lib/index.js",
-  "module": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "files": [
-    "lib"
+    "dist",
+    "README.md"
   ],
   "keywords": [
     "haptics",
@@ -26,7 +27,7 @@
     "typescript": "^5"
   },
   "scripts": {
-    "build": "tsc && bun build src/index.ts --target browser --format iife --outfile lib/core.js | head -1",
+    "build": "tsc && bun build src/index.ts --target browser --format iife --outfile dist/core.js | head -1",
     "dev": "tsc --watch"
   }
 }
